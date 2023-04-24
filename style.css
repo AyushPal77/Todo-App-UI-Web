@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    box-shadow: 0 0 15px 5px lightgray;
+    position: relative;
+}
+h1{
+    font-size: 50px;
+    /* left: 100px; */
+}
+.head span{
+    color: #00A5EC;
+}
+.head{
+    padding: 20px;
+    margin-left: 280px;
+}
+section{
+    background-color: #F7F7F7;
+    font-size: 25px;
+    padding: 20px 300px;
+    
+
+}
+.add{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    color: #424242;
+    padding: 10px;
+}
+.fa-circle-plus{
+    color: #00A5EC;
+}
+
+.boxes{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    gap: 15px;
+}
+/* .row{
+    display: flex;
+    flex-direction: row;
+} */
+.box{
+    height: 360px;
+    width: 352px;
+    border: 1px solid #EDEDED;
+    border-radius: 20px;
+}
+.box:hover{
+    box-shadow: 0 0 10px 0 lightgray;
+}
+.body{
+    padding: 30px;
+    font-size: 20px;
+    color: #00A5EC;
+}
+.body a{
+    color: #00A5EC;
+    text-decoration: none;
+}
+.check{
+    padding: 30px;
+    font-size: 20px;
+    gap: 50px;
+}
+.check span{
+    color: #C2C2C2;
+    text-decoration: line-through;
+}
+.check1{
+    display: flex;
+    align-items: center;
+}
+input{
+    height: 25px;
+    width: 25x;
+    margin: 10px;
+} 
+ .size{
+    height: 20px;
+    width: 20px;
+    color: #424242;
+}
+
+
+/* index2.html */
+
+.bgcolor{
+    background-color: #F7F7F7;
+}
+.parent{
+    filter: brightness(0.3);
+}
+
+.singlebox{
+    height: 210px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,0);
+    background-color: white;
+}
+
+.new{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 10px;
+    /* font-size: bold; */
+}
+.pop{
+    padding: 20px;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.pop button{
+    background-color: #00A5EC;
+    height: 48px;
+    width: 180px;
+    border-radius: 5px;
+    color: white;
+    align-self: flex-end;
+    border: none;
+}
+
+/* index3.html */
+.page3{
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 89vh;
+    row-gap: 50px;
+}
+.back-add{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 130px;
+    gap: 10px;
+}
+.back{
+    padding-right: 100px;
+}
+.fa-circle-arrow-left{
+    height: 100px;
+    width: 35px;
+    color: #424242;
+    align-items: center;
+}
+.back{
+    padding-top: 70px;
+}
+.page3box{
+    position: absolute;
+    left: 35%;
+    margin-top: 150px;
+    box-shadow: 0 0 10px 0 lightgray;
+    border-radius: 20px;
+}
+.center{
+    text-align: center;
+}
+
+
+/* index4.html */
+
+#parent4{
+    /* filter: brightness(0.4); */
+    background-color: #F7F7F7;
+}
+#filter{
+    filter: brightness(0.4);
+}
+
+#parent4 span{
+    color: #00A5EC;
+}
+.lastbox{
+    left: 46%;
+    /* right: 200%; */
+    top: 30%;
+}
